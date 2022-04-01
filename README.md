@@ -1,2 +1,2 @@
-# indoclasher.github.io
+# Web klan coc
 Clash of clans
