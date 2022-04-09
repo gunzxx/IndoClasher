@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'coc';
+	src: 'coc.ttf';
+}
+
+* {
+	/* font-family: 'coc'; */
+}
+
+.lagu{
+	display: block;
+}
