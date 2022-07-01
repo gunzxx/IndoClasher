@@ -2,6 +2,10 @@
 	font-family: 'coc';
 	src: 'coc.ttf';
 }
+body{
+	transition: 1s;;
+}
+
 
 * {
 	/* font-family: 'coc'; */
@@ -10,3 +14,21 @@
 .lagu{
 	display: block;
 }
+
+.waktu{
+	height: 40px;
+	font-size: 14px;
+	background-color: #ddd;
+	position: fixed;
+	/*z-index: 9;*/
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: flex;
+	justify-content: right;
+	/*justify-content: center;*/
+	align-items: center;
+	padding: 10px;
+	padding-bottom: 0;
+}
+
