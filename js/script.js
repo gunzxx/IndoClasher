@@ -12,3 +12,19 @@ document.body.addEventListener('mousemove', function(event){
 	console.log(xPost,yPost)
 	document.body.style.backgroundColor= 'rgb('+xPost+','+yPost+',100)';
 })
+
+.waktu{
+	height: 40px;
+	font-size: 14px;
+	background-color: #ddd;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	display: flex;
+	justify-content: right;
+	/*justify-content: center;*/
+	align-items: center;
+	padding: 10px;
+	padding-bottom: 0;
+}
