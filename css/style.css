@@ -6,11 +6,6 @@ body{
 	transition: 1s;;
 }
 
-
-* {
-	/* font-family: 'coc'; */
-}
-
 .lagu{
 	display: block;
 }
@@ -32,3 +27,9 @@ body{
 	padding-bottom: 0;
 }
 
+.container{
+	/* background-color: #F0EABE; */
+}
+.bgc{
+	background-color: #F0EABE;
+}

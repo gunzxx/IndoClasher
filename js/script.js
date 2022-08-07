@@ -18,16 +18,28 @@ setInterval(function(){
 	const yPost = Math.floor((Math.random()*100+1)/100*255);
 
 	document.body.style.backgroundColor= 'rgb('+xPost+','+yPost+',100)';
-},300)
+},500)
+
+const angka = [0,1,2,3,4,5,6,7,8,9]
 
 const waktuSkrg = setInterval(function(){
-	const jamSkrg = new Date().getHours();
-	const menitSkrg = new Date().getMinutes();
-	const detikSkrg = new Date().getSeconds();
+	let jamSkrg = new Date().getHours();
+	let menitSkrg = new Date().getMinutes();
+	let detikSkrg = new Date().getSeconds();
 	
 	const jSkrg = document.querySelector('#jamSkrg');
 	const mSkrg = document.querySelector('#menitSkrg');
 	const dSkrg = document.querySelector('#detikSkrg');
+
+	for (i=0;i<angka.length;i++){
+		if (detikSkrg == angka[i]){
+			detikSkrg = '0'+detikSkrg;
+		}else if (menitSkrg == angka[i] ){
+			menitSkrg = '0'+menitSkrg;
+		}else if(jamSkrg == angka[i]){
+			jamSkrg = '0'+jamSkrg;
+		}
+	}
 
 	jSkrg.innerHTML = jamSkrg;
 	mSkrg.innerHTML = menitSkrg;
