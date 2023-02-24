@@ -2,6 +2,11 @@
 	font-family: 'coc';
 	src: 'coc.ttf';
 }
+
+a{
+	text-decoration: none;
+}
+
 body{
 	transition: 1s;;
 }
@@ -20,11 +25,22 @@ body{
 	right: 0;
 	left: 0;
 	display: flex;
-	justify-content: right;
-	/*justify-content: center;*/
+	justify-content: end;
 	align-items: center;
 	padding: 10px;
 	padding-bottom: 0;
+}
+
+.teksPenunjang{
+	width: 50%;
+}
+
+.isiWaktuContainer{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
 }
 
 .container{
